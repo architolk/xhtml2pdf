@@ -14,9 +14,18 @@
 			<artifactId>slf4j-simple</artifactId>
 			<version>1.7.25</version>
 		</dependency>
+		<!-- Use this dependency with IText -->
+		<!--
 		<dependency>
 		    <groupId>org.xhtmlrenderer</groupId>
 		    <artifactId>flying-saucer-pdf-itext5</artifactId>
+		    <version>9.1.20</version>
+		</dependency>
+		-->
+		<!-- Use this dependency with OpenPDF -->
+		<dependency>
+		    <groupId>org.xhtmlrenderer</groupId>
+		    <artifactId>flying-saucer-pdf-openpdf</artifactId>
 		    <version>9.1.20</version>
 		</dependency>
 		<dependency>

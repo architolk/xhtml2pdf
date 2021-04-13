@@ -15,8 +15,13 @@ import org.xhtmlrenderer.render.BlockBox;
 import org.xhtmlrenderer.render.PageBox;
 import org.xhtmlrenderer.render.RenderingContext;
 
-import com.itextpdf.text.pdf.PdfContentByte;
-import com.itextpdf.text.pdf.PdfTemplate;
+//Use this with IText library
+//import com.itextpdf.text.pdf.PdfContentByte;
+//import com.itextpdf.text.pdf.PdfTemplate;
+
+//Use this with OpenPDF library
+import com.lowagie.text.pdf.PdfContentByte;
+import com.lowagie.text.pdf.PdfTemplate;
 
 public class SVGReplacedElement implements ITextReplacedElement {
 
